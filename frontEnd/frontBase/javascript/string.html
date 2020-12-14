@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>字符串操作 | UFO基地</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Hello, my friend!">
+    
+    <link rel="preload" href="/assets/css/0.styles.d4bf95f4.css" as="style"><link rel="preload" href="/assets/js/app.ed392c7e.js" as="script"><link rel="preload" href="/assets/js/2.e61ebc2f.js" as="script"><link rel="preload" href="/assets/js/21.687a969a.js" as="script"><link rel="prefetch" href="/assets/js/10.0c2a5e6f.js"><link rel="prefetch" href="/assets/js/11.65763309.js"><link rel="prefetch" href="/assets/js/12.62bd7cd5.js"><link rel="prefetch" href="/assets/js/13.84fd7b00.js"><link rel="prefetch" href="/assets/js/14.76172ee6.js"><link rel="prefetch" href="/assets/js/15.3ad856d8.js"><link rel="prefetch" href="/assets/js/16.3ac7f06b.js"><link rel="prefetch" href="/assets/js/17.65a246fc.js"><link rel="prefetch" href="/assets/js/18.cb772baf.js"><link rel="prefetch" href="/assets/js/19.f76cfbf3.js"><link rel="prefetch" href="/assets/js/20.dc8d8d82.js"><link rel="prefetch" href="/assets/js/22.137fa288.js"><link rel="prefetch" href="/assets/js/23.14cbc642.js"><link rel="prefetch" href="/assets/js/24.0aeeb403.js"><link rel="prefetch" href="/assets/js/25.7fa9db84.js"><link rel="prefetch" href="/assets/js/26.44e82cd1.js"><link rel="prefetch" href="/assets/js/27.fa31f48f.js"><link rel="prefetch" href="/assets/js/28.8e011d93.js"><link rel="prefetch" href="/assets/js/29.ce077aa3.js"><link rel="prefetch" href="/assets/js/3.604382ba.js"><link rel="prefetch" href="/assets/js/30.79ecda02.js"><link rel="prefetch" href="/assets/js/31.ee3c01fc.js"><link rel="prefetch" href="/assets/js/32.c985f1e2.js"><link rel="prefetch" href="/assets/js/33.44200f11.js"><link rel="prefetch" href="/assets/js/34.c649ac18.js"><link rel="prefetch" href="/assets/js/35.2a6ddc50.js"><link rel="prefetch" href="/assets/js/36.bef21df1.js"><link rel="prefetch" href="/assets/js/37.01e1887e.js"><link rel="prefetch" href="/assets/js/38.6d4a1211.js"><link rel="prefetch" href="/assets/js/39.dde25747.js"><link rel="prefetch" href="/assets/js/4.b3d7061b.js"><link rel="prefetch" href="/assets/js/40.32c4bbff.js"><link rel="prefetch" href="/assets/js/41.da785b17.js"><link rel="prefetch" href="/assets/js/42.c3c277b4.js"><link rel="prefetch" href="/assets/js/5.abedb45c.js"><link rel="prefetch" href="/assets/js/6.73c063ed.js"><link rel="prefetch" href="/assets/js/7.b4e343ac.js"><link rel="prefetch" href="/assets/js/8.b05dfa12.js"><link rel="prefetch" href="/assets/js/9.823e2c0f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d4bf95f4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">UFO基地</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontBase/html/htmlBase.html" class="nav-link">
+  html
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/css/cssBase.html" class="nav-link">
+  css
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/javascript/string.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/vue/vueBase.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/react/reactBase.html" class="nav-link">
+  react
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/nodejs/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li><li class="dropdown-item"><h4>
+          web基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/webTech/browser/browser.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/ajax/ajax.html" class="nav-link">
+  ajax
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/http/http.html" class="nav-link">
+  http
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/optimize/optimize.html" class="nav-link">
+  性能优化
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/backEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="通用" class="dropdown-title"><span class="title">通用</span> <span class="arrow down"></span></button> <button type="button" aria-label="通用" class="mobile-dropdown-title"><span class="title">通用</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/normal/github/gitNotes.html" class="nav-link">
+  git文档
+</a></li><li class="dropdown-item"><!----> <a href="/normal/algorithm/dataStructure.html" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/normal/nginx/nginx.html" class="nav-link">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/normal/database/mysqlBase.html" class="nav-link">
+  数据库
+</a></li><li class="dropdown-item"><h4>
+          编辑器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/normal/editTool/idea/idea.html" class="nav-link">
+  idea
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vscode/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vim/vim.html" class="nav-link">
+  vim
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构" class="dropdown-title"><span class="title">架构</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构" class="mobile-dropdown-title"><span class="title">架构</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端架构
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/frontFramework/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontBase/html/htmlBase.html" class="nav-link">
+  html
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/css/cssBase.html" class="nav-link">
+  css
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/javascript/string.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/vue/vueBase.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/react/reactBase.html" class="nav-link">
+  react
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/nodejs/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li><li class="dropdown-item"><h4>
+          web基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/webTech/browser/browser.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/ajax/ajax.html" class="nav-link">
+  ajax
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/http/http.html" class="nav-link">
+  http
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/optimize/optimize.html" class="nav-link">
+  性能优化
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/backEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="通用" class="dropdown-title"><span class="title">通用</span> <span class="arrow down"></span></button> <button type="button" aria-label="通用" class="mobile-dropdown-title"><span class="title">通用</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/normal/github/gitNotes.html" class="nav-link">
+  git文档
+</a></li><li class="dropdown-item"><!----> <a href="/normal/algorithm/dataStructure.html" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/normal/nginx/nginx.html" class="nav-link">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/normal/database/mysqlBase.html" class="nav-link">
+  数据库
+</a></li><li class="dropdown-item"><h4>
+          编辑器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/normal/editTool/idea/idea.html" class="nav-link">
+  idea
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vscode/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vim/vim.html" class="nav-link">
+  vim
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构" class="dropdown-title"><span class="title">架构</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构" class="mobile-dropdown-title"><span class="title">架构</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端架构
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/frontFramework/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/frontEnd/frontBase/javascript/string.html" aria-current="page" class="active sidebar-link">字符串</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/string.html#_1-字符串对象" class="sidebar-link">1 字符串对象</a></li></ul></li><li><a href="/frontEnd/frontBase/javascript/array.html" class="sidebar-link">数组</a></li><li><a href="/frontEnd/frontBase/javascript/BOM_DOM.html" class="sidebar-link">BOM_DOM</a></li><li><a href="/frontEnd/frontBase/javascript/ES6Base.html" class="sidebar-link">ES6基础</a></li><li><a href="/frontEnd/frontBase/javascript/jsBase.html" class="sidebar-link">js基础</a></li><li><a href="/frontEnd/frontBase/javascript/jsAdvance.html" class="sidebar-link">js进阶</a></li><li><a href="/frontEnd/frontBase/javascript/jsModule.html" class="sidebar-link">模块机制</a></li><li><a href="/frontEnd/frontBase/javascript/jsDesignMode.html" class="sidebar-link">设计模式</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="字符串操作"><a href="#字符串操作" class="header-anchor">#</a> 字符串操作</h1> <p>字符串所有的方法，都不会修改字符串本身(字符串是不可变的)，操作完成会返回一个新的字符串</p> <h2 id="_1-字符串对象"><a href="#_1-字符串对象" class="header-anchor">#</a> 1 字符串对象</h2> <div class="language- extra-class"><pre class="language-text"><code>var str=new String
+console.dir(str)
+//可以查看字符串对象的方法
+</code></pre></div><p>通常定义的字符串所调用的方法都是String对象的原型方法</p> <h3 id="_1-slice-start-end"><a href="#_1-slice-start-end" class="header-anchor">#</a> 1 slice(start,end)</h3> <p>slice()方法可提取字符串的某个部分，并以新的字符串返回被提取的部分</p> <ul><li>提取字符的起始位置，第一个字符为0</li> <li>结束位置的下标，未指定，则直接到结尾，为负数，则从尾部算位置</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">'eferew3434234'</span>
+<span class="token keyword">var</span> b<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token comment">//er</span>
+</code></pre></div><h3 id="_2-match-regexp"><a href="#_2-match-regexp" class="header-anchor">#</a> 2 match(regexp)</h3> <p>match() 方法可在字符串内检索一个或多个正则表达式的匹配。</p> <p>该方法和正则表达式结合使用</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">&quot;The rain in SPAIN stays mainly in the plain&quot;</span><span class="token punctuation">;</span> 
+<span class="token keyword">var</span> n<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">ain</span><span class="token regex-delimiter">/</span><span class="token regex-flags">gi</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//ain,AIN,ain,ain</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>n <span class="token keyword">instanceof</span> <span class="token class-name">Array</span><span class="token punctuation">)</span><span class="token comment">//match返回的是一个数组</span>
+</code></pre></div><h3 id="_3-repeat-count"><a href="#_3-repeat-count" class="header-anchor">#</a> 3 repeat(count)</h3> <p>将一个字符串重复指定次数输出</p> <h3 id="_4-startswith-str-start"><a href="#_4-startswith-str-start" class="header-anchor">#</a> 4 startsWith(str,start)</h3> <p>查找字符串是否是以指定的字符串str开头，结果返回boolean，true、false</p> <h3 id="_5-split"><a href="#_5-split" class="header-anchor">#</a> 5 split()</h3> <p>讲一个字符串按照指定的参数拆分，结果返回新的数组，不会改变原字符串</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">&quot;How are you doing today?&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> n<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">&quot; &quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span>
+<span class="token comment">//[&quot;How&quot;, &quot;are&quot;, &quot;you&quot;, &quot;doing&quot;, &quot;today?&quot;]</span>
+</code></pre></div><h3 id="_6-includes-str-start"><a href="#_6-includes-str-start" class="header-anchor">#</a> 6 includes(str,start)</h3> <p>includes() 方法用于判断字符串是否包含指定的子字符串。</p> <p>如果找到匹配的字符串则返回 true，否则返回 false</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">&quot;Hello world, welcome to the Runoob。&quot;</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span><span class="token string">&quot;world&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//true</span>
+</code></pre></div><h3 id="_7-charat-index"><a href="#_7-charat-index" class="header-anchor">#</a> 7 charAt(index)</h3> <p>可以返回字符串中指定位置的字符</p> <p>根据索引获取指定的字符</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">'343fef233'</span>
+<span class="token keyword">var</span> a<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+</code></pre></div><h3 id="_8-charcodeat-index"><a href="#_8-charcodeat-index" class="header-anchor">#</a> 8 charCodeAt(index)</h3> <p>获取指定位置的字符unicode编码</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">'343fef233'</span>
+<span class="token keyword">var</span> a<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">charCodeAt</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token comment">//50</span>
+</code></pre></div><h3 id="_9-fromcharcode-编码"><a href="#_9-fromcharcode-编码" class="header-anchor">#</a> 9 fromCharCode(编码)</h3> <p>可以根据字符编码去获取字符</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>result<span class="token operator">=</span>String<span class="token punctuation">.</span><span class="token function">fromCharCode</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token comment">//2</span>
+</code></pre></div><h3 id="_10-concat-str1-str2-str3"><a href="#_10-concat-str1-str2-str3" class="header-anchor">#</a> 10 concat(str1,str2,,,str3)</h3> <p>连接两个或多个字符串，不改变原字符串</p> <h3 id="_11-indexof-str-start"><a href="#_11-indexof-str-start" class="header-anchor">#</a> 11 indexOf(str,start)</h3> <p>该方法检索一个字符串是否含有指定的内容</p> <h3 id="_12-lastindexof-str-start"><a href="#_12-lastindexof-str-start" class="header-anchor">#</a> 12 lastIndexOf(str,start)</h3> <p>从最后开始往前进行查找检索是否含有指定的内容</p> <h3 id="_13-substring-start-end"><a href="#_13-substring-start-end" class="header-anchor">#</a> 13 subString(start,end)</h3> <p>和slice()功能一样</p> <p>区别：不同传负值</p> <p>​	    如果第二个参数小于第一个参数，则自动交换位置</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">'143'</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">.</span><span class="token function">subString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">//</span>
+</code></pre></div><h3 id="_14-touppercase"><a href="#_14-touppercase" class="header-anchor">#</a> 14 toUpperCase()</h3> <p>将字符串转换为大写</p> <h3 id="_15-tolowercase"><a href="#_15-tolowercase" class="header-anchor">#</a> 15 toLowerCase()</h3> <p>将字符串转换为小写</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str<span class="token operator">=</span><span class="token string">'efERERErew3434234'</span>
+<span class="token keyword">var</span> b<span class="token operator">=</span>str<span class="token punctuation">.</span><span class="token function">toUpperCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token comment">//EFEREREREW3434234</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">//eferererew3434234</span>
+</code></pre></div><h3 id="_16-trim"><a href="#_16-trim" class="header-anchor">#</a> 16 trim()</h3> <p>去掉字符串头部和尾部的空格</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> str <span class="token operator">=</span> <span class="token string">&quot;       Runoob        &quot;</span><span class="token punctuation">;</span>
+<span class="token function">alert</span><span class="token punctuation">(</span>str<span class="token punctuation">.</span><span class="token function">trim</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/frontEnd/frontBase/javascript/array.html">
+        数组
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ed392c7e.js" defer></script><script src="/assets/js/2.e61ebc2f.js" defer></script><script src="/assets/js/21.687a969a.js" defer></script>
+  </body>
+</html>

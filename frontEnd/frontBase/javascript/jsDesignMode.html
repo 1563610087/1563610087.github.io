@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>js设计模式 | UFO基地</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="Hello, my friend!">
+    
+    <link rel="preload" href="/assets/css/0.styles.d4bf95f4.css" as="style"><link rel="preload" href="/assets/js/app.ed392c7e.js" as="script"><link rel="preload" href="/assets/js/2.e61ebc2f.js" as="script"><link rel="preload" href="/assets/js/19.f76cfbf3.js" as="script"><link rel="prefetch" href="/assets/js/10.0c2a5e6f.js"><link rel="prefetch" href="/assets/js/11.65763309.js"><link rel="prefetch" href="/assets/js/12.62bd7cd5.js"><link rel="prefetch" href="/assets/js/13.84fd7b00.js"><link rel="prefetch" href="/assets/js/14.76172ee6.js"><link rel="prefetch" href="/assets/js/15.3ad856d8.js"><link rel="prefetch" href="/assets/js/16.3ac7f06b.js"><link rel="prefetch" href="/assets/js/17.65a246fc.js"><link rel="prefetch" href="/assets/js/18.cb772baf.js"><link rel="prefetch" href="/assets/js/20.dc8d8d82.js"><link rel="prefetch" href="/assets/js/21.687a969a.js"><link rel="prefetch" href="/assets/js/22.137fa288.js"><link rel="prefetch" href="/assets/js/23.14cbc642.js"><link rel="prefetch" href="/assets/js/24.0aeeb403.js"><link rel="prefetch" href="/assets/js/25.7fa9db84.js"><link rel="prefetch" href="/assets/js/26.44e82cd1.js"><link rel="prefetch" href="/assets/js/27.fa31f48f.js"><link rel="prefetch" href="/assets/js/28.8e011d93.js"><link rel="prefetch" href="/assets/js/29.ce077aa3.js"><link rel="prefetch" href="/assets/js/3.604382ba.js"><link rel="prefetch" href="/assets/js/30.79ecda02.js"><link rel="prefetch" href="/assets/js/31.ee3c01fc.js"><link rel="prefetch" href="/assets/js/32.c985f1e2.js"><link rel="prefetch" href="/assets/js/33.44200f11.js"><link rel="prefetch" href="/assets/js/34.c649ac18.js"><link rel="prefetch" href="/assets/js/35.2a6ddc50.js"><link rel="prefetch" href="/assets/js/36.bef21df1.js"><link rel="prefetch" href="/assets/js/37.01e1887e.js"><link rel="prefetch" href="/assets/js/38.6d4a1211.js"><link rel="prefetch" href="/assets/js/39.dde25747.js"><link rel="prefetch" href="/assets/js/4.b3d7061b.js"><link rel="prefetch" href="/assets/js/40.32c4bbff.js"><link rel="prefetch" href="/assets/js/41.da785b17.js"><link rel="prefetch" href="/assets/js/42.c3c277b4.js"><link rel="prefetch" href="/assets/js/5.abedb45c.js"><link rel="prefetch" href="/assets/js/6.73c063ed.js"><link rel="prefetch" href="/assets/js/7.b4e343ac.js"><link rel="prefetch" href="/assets/js/8.b05dfa12.js"><link rel="prefetch" href="/assets/js/9.823e2c0f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d4bf95f4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">UFO基地</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontBase/html/htmlBase.html" class="nav-link">
+  html
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/css/cssBase.html" class="nav-link">
+  css
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/javascript/string.html" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/vue/vueBase.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/react/reactBase.html" class="nav-link">
+  react
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/nodejs/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li><li class="dropdown-item"><h4>
+          web基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/webTech/browser/browser.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/ajax/ajax.html" class="nav-link">
+  ajax
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/http/http.html" class="nav-link">
+  http
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/optimize/optimize.html" class="nav-link">
+  性能优化
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/backEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="通用" class="dropdown-title"><span class="title">通用</span> <span class="arrow down"></span></button> <button type="button" aria-label="通用" class="mobile-dropdown-title"><span class="title">通用</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/normal/github/gitNotes.html" class="nav-link">
+  git文档
+</a></li><li class="dropdown-item"><!----> <a href="/normal/algorithm/dataStructure.html" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/normal/nginx/nginx.html" class="nav-link">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/normal/database/mysqlBase.html" class="nav-link">
+  数据库
+</a></li><li class="dropdown-item"><h4>
+          编辑器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/normal/editTool/idea/idea.html" class="nav-link">
+  idea
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vscode/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vim/vim.html" class="nav-link">
+  vim
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构" class="dropdown-title"><span class="title">架构</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构" class="mobile-dropdown-title"><span class="title">架构</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端架构
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/frontFramework/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontBase/html/htmlBase.html" class="nav-link">
+  html
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/css/cssBase.html" class="nav-link">
+  css
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontBase/javascript/string.html" class="nav-link">
+  javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/vue/vueBase.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/react/reactBase.html" class="nav-link">
+  react
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/nodejs/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/frontFrame/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li><li class="dropdown-item"><h4>
+          web基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontEnd/webTech/browser/browser.html" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/ajax/ajax.html" class="nav-link">
+  ajax
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/http/http.html" class="nav-link">
+  http
+</a></li><li class="dropdown-subitem"><a href="/frontEnd/webTech/optimize/optimize.html" class="nav-link">
+  性能优化
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/backEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="通用" class="dropdown-title"><span class="title">通用</span> <span class="arrow down"></span></button> <button type="button" aria-label="通用" class="mobile-dropdown-title"><span class="title">通用</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/normal/github/gitNotes.html" class="nav-link">
+  git文档
+</a></li><li class="dropdown-item"><!----> <a href="/normal/algorithm/dataStructure.html" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/normal/nginx/nginx.html" class="nav-link">
+  nginx
+</a></li><li class="dropdown-item"><!----> <a href="/normal/database/mysqlBase.html" class="nav-link">
+  数据库
+</a></li><li class="dropdown-item"><h4>
+          编辑器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/normal/editTool/idea/idea.html" class="nav-link">
+  idea
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vscode/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-subitem"><a href="/normal/editTool/vim/vim.html" class="nav-link">
+  vim
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="架构" class="dropdown-title"><span class="title">架构</span> <span class="arrow down"></span></button> <button type="button" aria-label="架构" class="mobile-dropdown-title"><span class="title">架构</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端架构
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/frontFramework/webpack/webpack.html" class="nav-link">
+  webpack
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/frontEnd/frontBase/javascript/string.html" class="sidebar-link">字符串</a></li><li><a href="/frontEnd/frontBase/javascript/array.html" class="sidebar-link">数组</a></li><li><a href="/frontEnd/frontBase/javascript/BOM_DOM.html" class="sidebar-link">BOM_DOM</a></li><li><a href="/frontEnd/frontBase/javascript/ES6Base.html" class="sidebar-link">ES6基础</a></li><li><a href="/frontEnd/frontBase/javascript/jsBase.html" class="sidebar-link">js基础</a></li><li><a href="/frontEnd/frontBase/javascript/jsAdvance.html" class="sidebar-link">js进阶</a></li><li><a href="/frontEnd/frontBase/javascript/jsModule.html" class="sidebar-link">模块机制</a></li><li><a href="/frontEnd/frontBase/javascript/jsDesignMode.html" aria-current="page" class="active sidebar-link">设计模式</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/jsDesignMode.html#_1-单例模式" class="sidebar-link">1 单例模式</a></li><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/jsDesignMode.html#_2-观察着模式" class="sidebar-link">2 观察着模式</a></li><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/jsDesignMode.html#_3-代理模式" class="sidebar-link">3 代理模式</a></li><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/jsDesignMode.html#_4-适配器模式" class="sidebar-link">4 适配器模式</a></li><li class="sidebar-sub-header"><a href="/frontEnd/frontBase/javascript/jsDesignMode.html#_5-策略模式" class="sidebar-link">5 策略模式</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="js设计模式"><a href="#js设计模式" class="header-anchor">#</a> js设计模式</h1> <h2 id="_1-单例模式"><a href="#_1-单例模式" class="header-anchor">#</a> 1 单例模式</h2> <h3 id="_1-1-定义"><a href="#_1-1-定义" class="header-anchor">#</a> 1.1 定义</h3> <p>保证一个类仅有一个实例，并提供一个访问它的全局访问点</p> <p>实现单例模式不复杂，用一个变量来标志当前是否已经为某个类创建过对象，如果是，则在下一次获取该类的实例时，直接返回之前创建的对象。</p> <p>适用场景：一个单一对象。比如：弹窗，无论点击多少次，弹窗只应该被创建一次。</p> <h3 id="_1-2-实现"><a href="#_1-2-实现" class="header-anchor">#</a> 1.2 实现</h3> <p>代理模式实现</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">CreateUser</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token operator">=</span>name
+<span class="token punctuation">}</span>
+<span class="token comment">// 代理实现单例模式</span>
+<span class="token keyword">var</span> ProxyMode <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> instance <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>instance<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          instance <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">CreateUser</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">return</span> instance<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ProxyMode</span><span class="token punctuation">(</span><span class="token string">&quot;aaa&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ProxyMode</span><span class="token punctuation">(</span><span class="token string">&quot;bbb&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a <span class="token operator">===</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">//true</span>
+</code></pre></div><h3 id="_1-3-应用场景"><a href="#_1-3-应用场景" class="header-anchor">#</a> 1.3 应用场景</h3> <p>1 vue中的vuex和react中的redux中的store</p> <p>2 es6中的module加载</p> <h2 id="_2-观察着模式"><a href="#_2-观察着模式" class="header-anchor">#</a> 2 观察着模式</h2> <h3 id="_2-1-定义"><a href="#_2-1-定义" class="header-anchor">#</a> 2.1 定义</h3> <p>定义对象间的一种一对多的依赖关系，以便当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并自动刷新，也被称为是发布订阅模式</p> <h3 id="_2-2-实现"><a href="#_2-2-实现" class="header-anchor">#</a> 2.2 实现</h3> <p>实现的核心：</p> <p>1 需要一个数组来保存订阅者的方法</p> <p>2 添加订阅</p> <p>3 删除订阅</p> <p>4 发布订阅</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> Weibo <span class="token operator">=</span> <span class="token punctuation">{</span>
+  subscribers<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//添加订阅</span>
+  <span class="token function-variable function">addSubscribe</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>type <span class="token operator">=</span> <span class="token string">'default'</span><span class="token punctuation">,</span> fn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>fn<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//将订阅方法保存在数组里</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//退订</span>
+  <span class="token function-variable function">delSubscribe</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>type <span class="token operator">=</span> <span class="token string">'default'</span><span class="token punctuation">,</span> fn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span> <span class="token operator">=</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token parameter">item</span> <span class="token operator">=&gt;</span> item <span class="token operator">!==</span> fn<span class="token punctuation">)</span> <span class="token comment">//将退订的方法从数组中移除</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">//发布订阅</span>
+  <span class="token function-variable function">publish</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>type <span class="token operator">=</span> <span class="token string">'default'</span><span class="token punctuation">,</span> <span class="token operator">...</span>args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>subscribers<span class="token punctuation">[</span>type<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">item</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">item</span><span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>	<span class="token comment">//根据不同的类型调用相应的方法</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> User1 <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">readNews</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">info</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>info <span class="token operator">+</span> <span class="token string">'我是用户2'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> User2 <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">readNews</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">info</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>info <span class="token operator">+</span> <span class="token string">'我是用户2'</span><span class="token punctuation">)</span>
+
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+Weibo<span class="token punctuation">.</span><span class="token function">addSubscribe</span><span class="token punctuation">(</span><span class="token string">'娱乐'</span><span class="token punctuation">,</span> User2<span class="token punctuation">.</span>readNews<span class="token punctuation">)</span>
+Weibo<span class="token punctuation">.</span><span class="token function">addSubscribe</span><span class="token punctuation">(</span><span class="token string">'娱乐'</span><span class="token punctuation">,</span> User1<span class="token punctuation">.</span>readNews<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Weibo<span class="token punctuation">.</span><span class="token function">addSubscribe</span><span class="token punctuation">(</span><span class="token string">'体育'</span><span class="token punctuation">,</span> User1<span class="token punctuation">.</span>readNews<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//User1 退订娱乐新闻：</span>
+Weibo<span class="token punctuation">.</span><span class="token function">delSubscribe</span><span class="token punctuation">(</span><span class="token string">'娱乐'</span><span class="token punctuation">,</span> User1<span class="token punctuation">.</span>readNews<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//发布新报纸：</span>
+Weibo<span class="token punctuation">.</span><span class="token function">publish</span><span class="token punctuation">(</span><span class="token string">'娱乐'</span><span class="token punctuation">,</span> <span class="token string">'S.H.E演唱会惊喜登台'</span><span class="token punctuation">)</span>
+Weibo<span class="token punctuation">.</span><span class="token function">publish</span><span class="token punctuation">(</span><span class="token string">'体育'</span><span class="token punctuation">,</span> <span class="token string">'欧国联-意大利0-1客负葡萄牙'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</code></pre></div><h3 id="_2-3-应用场景"><a href="#_2-3-应用场景" class="header-anchor">#</a> 2.3 应用场景</h3> <p>1 promise</p> <p>2 vue的数据双向绑定</p> <h3 id="_2-4-优缺点"><a href="#_2-4-优缺点" class="header-anchor">#</a> 2.4 优缺点</h3> <p>优点：降低对象之间的耦合度</p> <p>缺点：</p> <ul><li>如果一个被观察者对象有很多的直接和间接的观察者的话，将所有的观察者都通知到会花费很多时间</li> <li>如果在被观察者之间有循环依赖的话，被观察者会触发它们之间进行循环调用，导致系统崩溃</li></ul> <h2 id="_3-代理模式"><a href="#_3-代理模式" class="header-anchor">#</a> 3 代理模式</h2> <h3 id="_3-1-定义"><a href="#_3-1-定义" class="header-anchor">#</a> 3.1 定义</h3> <p>代理模式是为对象提供一个代用品或者占位符，以便控制对他的访问</p> <p>代理模式的中文含义就是帮别人做事，javascript的解释为：把对一个对象的访问, 交给另一个代理对象来操作</p> <h3 id="_3-2-实现"><a href="#_3-2-实现" class="header-anchor">#</a> 3.2 实现</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> myImage <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">var</span> imgNode <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;img&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>imgNode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">src</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        imgNode<span class="token punctuation">.</span>src <span class="token operator">=</span> src<span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 代理模式</span>
+<span class="token keyword">var</span> ProxyImage <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Image</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    img<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">myImage</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>src<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">src</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token comment">// 占位图片loading</span>
+                <span class="token function">myImage</span><span class="token punctuation">(</span><span class="token string">&quot;http://img.lanrentuku.com/img/allimg/1212/5-121204193Q9-50.gif&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        img<span class="token punctuation">.</span>src <span class="token operator">=</span> src<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 调用方式</span>
+
+<span class="token function">ProxyImage</span><span class="token punctuation">(</span><span class="token string">&quot;https://img.alicdn.com/tps/i4/TB1b_neLXXXXXcoXFXXc8PZ9XXX-130-200.png&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_3-3-应用场景"><a href="#_3-3-应用场景" class="header-anchor">#</a> 3.3 应用场景</h3> <ol><li>远程代理，为一个对象在不同的地址空间提供局部代表，这样就可以隐藏一个对象存在于不同地址空间的事实。</li> <li>虚拟代理，是根据需要创建开销很大的对象。通过它来存放实例化需要很长时间的真是对象。</li> <li>保护代理，用来控制真实对象访问时的权限。</li> <li>智能指引，是指当调用真是的对象时，代理处理另外的一些事情。</li></ol> <p>图片的懒加载，我们就可以运用这种技术。在图片未加载完成之前，给个loading图片，加载完成后再替换成实体路径</p> <p>vue3.0的双向数据绑定采用ES6的proxy</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">let</span> star <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'菜徐坤'</span><span class="token punctuation">,</span>
+  song<span class="token operator">:</span> <span class="token string">'~鸡你太美~'</span><span class="token punctuation">,</span>
+  age<span class="token operator">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+  phone<span class="token operator">:</span> <span class="token number">13089898989</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">let</span> agent <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Proxy</span><span class="token punctuation">(</span>star<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  <span class="token function">get</span><span class="token punctuation">(</span>target<span class="token punctuation">,</span> key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>key <span class="token operator">==</span> <span class="token string">'phone'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 返回经济人自己的电话</span>
+      <span class="token keyword">return</span> <span class="token number">15667096303</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>key <span class="token operator">==</span> <span class="token string">'price'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token number">20000000000</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> target<span class="token punctuation">[</span>key<span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">set</span><span class="token punctuation">(</span>target<span class="token punctuation">,</span> key<span class="token punctuation">,</span> val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>key <span class="token operator">===</span> <span class="token string">'customPrice'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>val <span class="token operator">&lt;</span> <span class="token number">100000000</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'价格太低'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        target<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">=</span> value<span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// agent 对象会根据相应的代理规则，执行相应的操作：</span>
+agent<span class="token punctuation">.</span>phone <span class="token comment">// 15667096303  </span>
+agent<span class="token punctuation">.</span>price <span class="token comment">// 20000000000 </span>
+
+</code></pre></div><h3 id="_3-4-优缺点"><a href="#_3-4-优缺点" class="header-anchor">#</a> 3.4 优缺点</h3> <p>缺点</p> <ol><li>在客户端和目标对象增加一个代理对象，会造成请求处理速度变慢。</li> <li>增加了系统的复杂度。</li></ol> <h2 id="_4-适配器模式"><a href="#_4-适配器模式" class="header-anchor">#</a> 4 适配器模式</h2> <h3 id="_4-1-定义"><a href="#_4-1-定义" class="header-anchor">#</a> 4.1 定义</h3> <p>适配器模式的作用是解决两个软件实体间的接口不兼容的问题。使用适配器模式之后，原本由于接口不兼容而不能工作的两个软件实体可以一起工作</p> <h2 id="_5-策略模式"><a href="#_5-策略模式" class="header-anchor">#</a> 5 策略模式</h2> <h3 id="_5-1-定义"><a href="#_5-1-定义" class="header-anchor">#</a> 5.1 定义</h3> <p>策略模式指的是定义一些列的算法，把他们一个个封装起来，目的就是将算法的使用与算法的实现分离开来。说白了就是以前要很多判断的写法，现在把判断里面的内容抽离开来，变成一个个小的个体。</p> <h3 id="_5-2-实现"><a href="#_5-2-实现" class="header-anchor">#</a> 5.2 实现</h3> <h3 id="_5-3-适用场景"><a href="#_5-3-适用场景" class="header-anchor">#</a> 5.3 适用场景</h3> <ol><li>多个类有不同的表现形式，每种表现形式可以独立成单独的算法。</li> <li>需要再不同情况下使用不同的算法，以后算法可能还会增加。</li> <li>对用户隐藏算法逻辑。</li></ol> <p>实际应用：表单的内容验证</p> <h3 id="_5-4-优缺点"><a href="#_5-4-优缺点" class="header-anchor">#</a> 5.4 优缺点</h3> <p>优点</p> <ol><li>每个算法单独封装，减少了算法和算法调用者的耦合。</li> <li>合理使用继承有助于提取出算法中的公共部分。</li> <li>简化了单元测试。</li></ol> <p>缺点</p> <ol><li>策略模式只适用于客户端知道所有的算法或行为的情况。</li> <li>策略模式造成很多的策略类，每个具体策略类都会产生一个新类。不过可以使用享元模式来减少对象的数量。</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/frontEnd/frontBase/javascript/jsModule.html" class="prev">
+        模块机制
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ed392c7e.js" defer></script><script src="/assets/js/2.e61ebc2f.js" defer></script><script src="/assets/js/19.f76cfbf3.js" defer></script>
+  </body>
+</html>
